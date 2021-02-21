@@ -1,0 +1,97 @@
+/* main */
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+
+.main{
+    
+    background-color: rgb(58, 36, 36,63%);
+}
+.main_wrapper{
+    display: flex;
+    overflow: hidden;
+}
+.thrd_1{
+    transform: translateY(-60px);
+    transition: all 2s ease-in-out;
+}
+#prev{
+    position: absolute;
+    width: 30px;
+    height: 41px;
+    transform: rotate(180deg);
+    top: 50%;
+    left: 5px;
+    cursor: pointer;
+}
+
+#next{
+    position: absolute;
+    right:0px;
+    top: 50%;
+    width: 30px;
+    height: 41px;
+    right: 5px;
+    cursor: pointer;
+}
+.circle{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-120px) ;
+    align-items: center;
+}
+
+.circle1{
+    background-color: #9b8282;
+    width: 22px;
+    height: 22px;
+    border-radius: 100px;
+    margin-right: 9px;
+} 
+.circle2{
+    background-color: #9b8282;
+    width: 22px;
+    height: 22px;
+    border-radius: 100px;
+    margin-right: 9px;
+} 
+.circle3{
+    background-color: #9b8282;
+    width: 22px;
+    height: 22px;
+    border-radius: 100px;
+    margin-right: 9px;
+}
+.circle_active{
+    background-color:  #EAD903;
+    width: 29px;
+    height: 29px;
+    transition: all 0.5s ease;
+}
+
+.head_text{
+    color:#EAD903 ;
+    font-family: 'Goldman', cursive;
+    text-align: center;
+    font-size: 51px;
+    margin-top: 30px;
+    transition: all 2s ease-in-out;
+}
+.get{
+    font-size: 21px;
+    width: 257px;
+    height: 60px;
+    margin: 10px;
+    background-color: transparent;
+    border-radius: 30px;
+    border: 3px solid yellow;
+    transform: translateX(315%) !important;
+    color:#EAD903 ;
+    font-family: 'Goldman', cursive;
+    cursor: pointer;
+}
+.get:hover{
+    background-color:rgb(58, 36, 36,63%) ;
+}
+.get:focus{
+    outline: none;
+}

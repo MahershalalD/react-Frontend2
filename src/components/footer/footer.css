@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'Rajdhaniay';
+  src: local('Rajdhaniay'), url("./Fonts/good times\ rg.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'Rajdhani';
+  src: local('Rajdhani'), url('../Section_four/Fonts/gadugib.ttf') format('truetype');
+}
+
+.footer{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    background-color: #827474;
+}
+.footer_main{
+    display: flex;
+    flex-direction: column;
+    margin:80px 80px 0 ;
+}
+
+.footer_sub{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.footer_sub img{
+    width:100px;
+    height: 100px;
+}
+
+.footer_sub h3{
+    font-family: 'Rajdhaniay';
+    font-size: 30px;
+    color: white;
+}
+.footer_main p{
+    position: relative;
+    width: 300px;
+    font-size: 15px;
+    color: white;
+}
+
+.circle_footer1{
+    position: absolute;
+    top: 2833px;
+    background-color: #EAD903;
+    width: 450px;
+    height: 250px;
+    border-bottom-left-radius: 300px;
+    border-bottom-right-radius: 300px;
+    margin:0 0 0 700px  ;
+    z-index: 5;
+}
+.circle_footer2{
+    position: absolute;
+    top: 2838px;
+    background-color: rgb(255, 255, 255);
+    width: 550px;
+    height: 300px;
+    border-bottom-left-radius: 400px;
+    border-bottom-right-radius: 400px;
+    margin:0 0 0 650px  ;
+    z-index: 0;
+}
+.line{
+    width: 500px;
+    height: 3px;
+    background-color: white;
+    margin-top: 30px;
+}
+.footer_foot_two_text{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.footer_foot_two_text h3{
+    font-family: 'Rajdhani';
+    color: white;
+}
+.footer_foot_two_text p{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 7px;
+}

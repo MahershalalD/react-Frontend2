@@ -1,0 +1,108 @@
+
+@font-face {
+  font-family: 'Rajdhania';
+  src: local('Rajdhania'), url("./Fonts/good times\ rg.ttf") format('truetype');
+}
+
+.section_two{
+    width: auto;
+    overflow: hidden;
+    margin-top:100px ;
+}
+
+.section_two_main{
+    display: flex;
+    width: 60%;
+    margin:100px auto;
+}
+
+.section_two_card_main{
+    background-color: #827474;
+    width: 351px;
+    height: 478px;
+    border-radius: 40px;
+    margin: auto;
+}
+
+.section_two_card_svg{
+    height:145px ;
+    width: 110px;
+    padding: 20px;
+    background-color: #9A8888;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 100px;
+}
+
+.section_two_card_logo{
+    position: absolute;
+    padding-top: 10px;
+    padding-left:90px ;
+    width: 100px;
+    height: 100px;
+    opacity: 70%;
+}
+
+
+.section_two_text_part{
+    padding-top: 50px;
+    width: 100%;
+}
+
+.section_two_text{
+    font-family: 'Rajdhania';
+    font-size: 28px;
+    text-align: center;
+    color: #EAD903;
+}
+.section_two_text_p{
+    font-family: 'Rajdhania';
+    font-size: 14px;
+    text-align: center;
+    color: white;
+}
+
+
+.section_two_button{
+    width: 200px;
+    height: 47px;
+    margin:30px 75px ;
+    border: 2px solid;
+    border-color: #C5B803;
+    background-color: #9A8888;
+    border-radius: 20px;
+    color: #EAD903;
+    font-size:15px;
+    cursor: pointer;
+    font-family: 'Rajdhania';
+}
+.section_two_button:hover{
+    background-color:#C5B803 ;
+    border: 2px solid #827474;
+    color: white;
+}
+.section_two_triangle1{
+    position: absolute;
+    width: 0;
+      height: 0;
+      top: 650px;
+      left: 803px;
+      border-left: 450px solid transparent;
+      border-right: 50px solid transparent;
+      border-top: 1700px solid #F5F5F5;
+      transform: rotate(90deg);
+      z-index: -1;
+}
+.section_two_triangle2{
+    position: absolute;
+    width: 0;
+      height: 0;
+      top: 1000px;
+      left: 200px;
+      border-left: 400px solid transparent;
+      border-right: 90px solid transparent;
+      border-top: 1000px solid #9a888842;
+      transform: rotate(275deg);
+      z-index: -1;
+}

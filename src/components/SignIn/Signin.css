@@ -1,0 +1,706 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.signin_up{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+    overflow: hidden;
+   display: flex;
+   flex-direction: row;
+   
+}
+.signin_up_0{
+    position: relative;
+   width: 100%;
+   height: 100%;
+    overflow: hidden;
+    transition: all 2s ease;
+    transform: translateX(-1920px);
+}
+.signup_logo{
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:20px 30px;
+}
+.signup_logo img{
+    width: 80px;
+    height: 80px;
+}
+.signup_logo h2{
+    font-family: 'Rajdhanii';
+    color: #3A2424;
+    font-size: 35px;
+}
+.signin_up_main{
+    display: fixed;
+    margin: 120px 65px;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 1;
+}
+
+.signup_form{
+
+    margin-top: 30px;
+
+}
+
+.signin_input p{
+    margin-bottom: 10px;
+}
+
+.signin_input input{
+    width: 200px;
+    height: 40px;
+    padding: 2px 12px;
+    border: 1px solid #3A242462;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 20px;
+}
+.signin_input button{
+    width: 130px;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    margin-top: 30px;
+    background-color: #3A2424;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+.signin_mockup_logo{
+    position:absolute;
+    bottom: 0;
+    right: 100px;
+    width: 600px;
+    height: 600px;
+    z-index: 100;
+    transition: all 1.5s ease;
+}
+
+.signin_mockup_circle{
+    position: fixed;
+    height: 1500px;
+    width: 1500px;
+    background-color: #3A2424;
+    border-radius: 1000px;
+    transition: transform 2s ease;
+    z-index: 2;
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.signin_timeflow{
+    position: absolute;
+    right: 50%;
+    bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transition: all 1.5s ease-in;
+}
+.signin_timeflow_line{
+    width: 100px;
+    height: 1px;
+    background-color:#3A2424 ;
+    transition: all 1s ease-out;
+}
+.icon{
+    transition: all 1.5s ease  !important;
+}
+.signin_input button:hover{
+    background-color: transparent;
+    border: 1px solid #3A242462;
+    color: #3A242462;
+}
+.signin_input button:focus{
+    outline: none;
+}
+.MuiSvgIcon-root{
+    transition: none;
+}
+
+
+
+/* ----------------------------SIGNIN_TERM2-------------------------- */
+.signin_up1{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: all 1.5s ease;
+    transform: translateX(0*2);
+}
+.signup_logo1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:20px 30px;
+}
+.signup_logo1 img{
+    width: 80px;
+    height: 80px;
+}
+.signup_logo1 h2{
+    font-family: 'Rajdhanii';
+    color: #3A2424;
+    font-size: 35px;
+}
+.signin_up_main1{
+    position: absolute;
+    right: 100px;
+    margin: 120px 65px;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 0;
+}
+.signin_up_main1 h1{
+    position: relative;
+    right: 130px;
+}
+.signin_up_main1 h3{
+    position: relative;
+    right: 130px;
+    margin-bottom: 30px;
+}
+.signup_form1{
+    position: absolute;
+    right: 0px;
+}
+
+.signin_input1 p{
+    margin-bottom: 10px;
+}
+
+.signin_input1 input{
+    width: 200px;
+    height: 40px;
+    padding: 2px 12px;
+    border: 1px solid #3A242462;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 20px;
+}
+.signin_input1 select{
+    width: 225px;
+    height: 45px;
+    padding: 4px;
+    line-height: 32px;
+    text-indent: 4px;
+    border: 1px solid #3A242462;
+    border-radius:8px !important;
+    outline: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+}
+.signin_input1_option{
+    height: 100%; 
+    font-size: 15px;
+    margin: 10px !important;
+    opacity: 63%;
+}
+.signin_input1 button{
+    width: 130px;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    margin-top: 30px;
+    background-color: #3A2424;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+.signin_input1 button:hover{
+    background-color: transparent;
+    border: 1px solid #3A242462;
+    color: #3A242462;
+}
+.signin_input1 button:focus{
+    outline: none;
+}
+.signin_mockup_logo1{
+    position: fixed;
+    top: 0;
+    left: 0px;
+    width: 600px;
+    height: 600px;
+    z-index: 3;
+    transition: all 1.5s ease;
+}
+
+
+/* ----------------------------SIGNIN_TERM3-------------------------- */
+.signin_up2{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: all 1.5s ease;
+}
+.signup_logo2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:20px 30px;
+}
+.signup_logo2 img{
+    width: 80px;
+    height: 80px;
+}
+.signup_logo2 h2{
+    font-family: 'Rajdhanii';
+    color: #3A2424;
+    font-size: 35px;
+}
+.signin_up_main2{
+    position: absolute;
+    left:200px;
+    top: 0;
+    margin: 70px 5px;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 0;
+}
+.signin_up_main2 h1{
+    position: relative;
+    right: 130px;
+}
+.signin_up_main2 h3{
+    position: relative;
+    right: 130px;
+    margin-bottom: 30px;
+}
+.signup_form2{
+    position: absolute;
+    right: 0px;
+}
+
+.signin_input2 p{
+    margin-bottom: 10px;
+}
+
+.signin_input2 input{
+    width: 200px;
+    height: 40px;
+    padding: 2px 12px;
+    border: 1px solid #3A242462;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 20px;
+}
+.signin_input2 select{
+    width: 225px;
+    height: 45px;
+    padding: 4px;
+    line-height: 32px;
+    text-indent: 4px;
+    border: 1px solid #3A242462;
+    border-radius:8px !important;
+    outline: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+}
+.signin_input2_option{
+    height: 100%; 
+    font-size: 15px;
+    margin: 10px !important;
+    opacity: 63%;
+}
+.signin_input2 button{
+    width: 130px;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    margin-top: 30px;
+    background-color: #3A2424;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+.signin_input2 button:hover{
+    background-color: transparent;
+    border: 1px solid #3A242462;
+    color: #3A242462;
+}
+.signin_input2 button:focus{
+    outline: none;
+}
+.signin_mockup_logo2{
+    position: fixed;
+    top: 0;
+    right: 0px;
+    width: 600px;
+    height: 600px;
+    z-index: 3;
+    transition: all 1.5s ease;
+}
+.signin_mockup_circle_small{
+    display: none;
+}
+
+
+
+/* ---------------------------------------MOBILE-------------- */
+
+
+@media only screen and (max-width: 1200px){
+    .signin_up{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: row;
+   overflow: auto;
+}
+.signin_up_0{
+    overflow: auto;
+   width: 100%;
+   height: 100%;
+    transition: all 2s ease;
+    transform: translateX(-1920px);
+}
+.signup_logo{
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:20px 30px;
+}
+.signup_logo img{
+    width: 80px;
+    height: 80px;
+}
+.signup_logo h2{
+    font-family: 'Rajdhanii';
+    color: #3A2424;
+    font-size: 35px;
+}
+.signin_up_main{
+    display: fixed;
+    margin: 120px 65px;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 1;
+}
+
+.signup_form{
+
+    margin-top: 30px;
+
+}
+
+.signin_input p{
+    margin-bottom: 10px;
+}
+
+.signin_input input{
+    width: 200px;
+    height: 40px;
+    padding: 2px 12px;
+    border: 1px solid #3A242462;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 20px;
+}
+.signin_input button{
+    width: 130px;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    margin-top: 30px;
+    background-color: #3A2424;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+.signin_mockup_logo{
+    display: none !important ;
+    position:absolute;
+    bottom: 0;
+    right: 100px;
+    width: 600px;
+    height: 600px;
+    z-index: 100;
+    transition: all 1.5s ease;
+}
+
+.signin_mockup_circle{
+     display: none !important ;
+    position: fixed;
+    height: 1500px;
+    width: 1500px;
+    background-color: #3A2424;
+    border-radius: 1000px;
+    transition: transform 2s ease;
+    z-index: 2;
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.signin_timeflow{
+     display: none !important;
+    position: absolute;
+    right: 50%;
+    bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transition: all 1.5s ease-in;
+}
+.signin_timeflow_line{
+     display: none;
+    width: 100px;
+    height: 1px;
+    background-color:#3A2424 ;
+    transition: all 1s ease-out;
+}
+.icon{
+    transition: all 1.5s ease  !important;
+}
+.signin_input button:hover{
+    background-color: transparent;
+    border: 1px solid #3A242462;
+    color: #3A242462;
+}
+.signin_input button:focus{
+    outline: none;
+}
+.MuiSvgIcon-root{
+    transition: none;
+}
+
+
+
+/* ----------------------------SIGNIN_TERM2-------------------------- */
+.signin_up1{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    transition: all 1.5s ease;
+    transform: translateX(0*2);
+}
+.signup_logo1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:20px 30px;
+}
+.signup_logo1 img{
+    width: 80px;
+    height: 80px;
+}
+.signup_logo1 h2{
+    font-family: 'Rajdhanii';
+    color: #3A2424;
+    font-size: 35px;
+}
+.signin_up_main1{
+    position: absolute;
+    left: 0px;
+    margin: 120px 65px;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 0;
+}
+.signin_up_main1 h1{
+    position: relative;
+    left: 0px;
+}
+.signin_up_main1 h3{
+    position: relative;
+    left:0px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.signup_form1{
+    position: absolute;
+    left: 0px;
+}
+
+.signin_input1 p{
+    margin-bottom: 10px;
+}
+
+.signin_input1 input{
+    width: 200px;
+    height: 40px;
+    padding: 2px 12px;
+    border: 1px solid #3A242462;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 20px;
+}
+.signin_input1 select{
+    width: 225px;
+    height: 45px;
+    padding: 4px;
+    line-height: 32px;
+    text-indent: 4px;
+    border: 1px solid #3A242462;
+    border-radius:8px !important;
+    outline: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+}
+.signin_input1_option{
+    height: 100%; 
+    font-size: 15px;
+    margin: 10px !important;
+    opacity: 63%;
+}
+.signin_input1 button{
+    width: 100%;
+    width: 150px;
+    height: 40px;
+    padding:12px 20px;
+    border-radius: 40px;
+    border: none;
+    margin-top: 30px !important;
+    background-color: #3A2424;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+.signin_input1 button:hover{
+    background-color: transparent;
+    border: 1px solid #3A242462;
+    color: #3A242462;
+}
+.signin_input1 button:focus{
+    outline: none;
+}
+.signin_mockup_logo1{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0px;
+    width: 600px;
+    height: 600px;
+    z-index: 3;
+    transition: all 1.5s ease;
+}
+
+/* ----------------------------SIGNIN_TERM3-------------------------- */
+.signin_up2{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    transition: all 1.5s ease;
+}
+.signup_logo2{
+    position: absolute;
+    top: 800px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:20px 30px;
+}
+.signup_logo2 img{
+    width: 80px;
+    height: 80px;
+}
+.signup_logo2 h2{
+    font-family: 'Rajdhanii';
+    color: #3A2424;
+    font-size: 35px;
+}
+.signin_up_main2{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    margin: 120px 65px;
+    font-family: 'Open Sans', sans-serif;
+}
+.signin_up_main2 h1{
+    position: relative;
+    left: 0px;
+}
+.signin_up_main2 h3{
+    position: relative;
+    left: 0px;
+    margin-bottom: 30px;
+}
+.signup_form2{
+    position: absolute;
+    left: 0px;
+}
+
+.signin_input2 p{
+    margin-bottom: 10px;
+}
+
+.signin_input2 input{
+    width: 200px;
+    height: 40px;
+    padding: 2px 12px;
+    border: 1px solid #3A242462;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 20px;
+}
+.signin_input2 select{
+    width: 225px;
+    height: 45px;
+    padding: 4px;
+    line-height: 32px;
+    text-indent: 4px;
+    border: 1px solid #3A242462;
+    border-radius:8px !important;
+    outline: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+}
+.signin_input2_option{
+    height: 100%; 
+    font-size: 15px;
+    margin: 10px !important;
+    opacity: 63%;
+}
+.signin_input2 button{
+    width: 100%;
+    width: 190px;
+    height: 40px;
+    padding:12px 20px;
+    border-radius: 40px;
+    border: none;
+    padding: 12px 20px;
+    margin-top: 30px;
+    background-color: #3A2424;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+.signin_input2 button:hover{
+    background-color: transparent;
+    border: 1px solid #3A242462;
+    color: #3A242462;
+}
+.signin_input2 button:focus{
+    outline: none;
+}
+.signin_mockup_logo2{
+    display: none !important;
+    position: fixed;
+    top: 0;
+    right: 0px;
+    width: 600px;
+    height: 600px;
+    z-index: 3;
+    transition: all 1.5s ease;
+}
+.signin_mockup_circle_small{
+    display: none;
+}
+
+}
+

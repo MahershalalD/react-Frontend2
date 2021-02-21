@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+@font-face {
+  font-family: 'Rajdhanii';
+  src: local('Rajdhanii'), url('./fonts/Library\ 3\ am\ soft.otf') format('truetype');
+}
+
+/* NAVBAR */
+nav{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    background-color: rgb(58, 36, 36,63%);
+    z-index: 3;
+}
+
+/* HAM_ICON */
+.nav_ham{
+    margin-left:20px ;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.ham_line1{
+    width: 40px;
+    height: 4px;
+    background-color: #EAD903;
+    margin: 10px;
+}
+.ham_line2{
+    width: 30px;
+    height: 4px;
+    background-color: #EAD903;
+    margin: 10px;
+}
+.ham_line3{
+    width: 20px;
+    height: 4px;
+    background-color: #EAD903;
+    margin: 10px;
+}
+
+/* NAVBAR_LOGO */
+.nav_logo_img{
+    width: 60px;
+    height: 60px;
+}
+
+
+
+.nav_logo_text{
+    color:#EAD903 ;
+    font-family: 'Rajdhanii';
+    font-size: 25px;
+}
+
+.nav_account{
+  position: absolute; 
+  right: 5% ;
+}
+.nav_account_icon{
+    color:#9A8888;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.drop_down{
+    position: absolute;
+    background-color: #F5F5F5;
+    transform: translateY(-250px);
+    transition: all .8s ease;
+    width: 100%;
+    opacity: 0;
+    z-index: 2;
+}
+.drop_down_active{
+    position: absolute;
+    background-color: #F5F5F5;
+     transform: translateY(0px);
+      transition: all .8s ease;
+     width: 100%;
+     opacity: 1;
+     z-index: 2;
+}
+.drop_down ul{
+    padding: 30px;
+    list-style: none;
+}
+.drop_down li{
+    margin-top: 20px;
+     margin-bottom: 20px;
+    font-size: 31px;
+    margin-left: 40px;
+    font-family: 'Goldman', cursive;
+}
+.drop_down_active ul{
+    padding: 30px;
+    list-style: none;
+}
+.drop_down_active li{
+    margin-top: 20px;
+     margin-bottom: 20px;
+    font-size: 31px;
+    margin-left: 40px;
+    font-family: 'Goldman', cursive;
+}
+
+.acc_main{
+    position: absolute;
+    background-color: lightcyan;
+    z-index: 3;
+    right: 60px;
+    top: 100px;
+    border-radius: 10px;
+    transform: scaleY(0);
+    opacity: 0;
+    transition: all 0.2s ease-out;
+}
+.acc_main_active{
+    position: absolute;
+    background-color: lightcyan;
+    z-index: 3;
+    right: 60px;
+    top: 100px;
+    border-radius: 10px;
+    transform: scaleY(300px);
+    opacity: 1;
+    transition: all 0.2s ease-out;
+}
+.acc_sub ul{
+   list-style: none;
+}
+
+.acc_sub li{
+    font-size: 21px;
+    font-family: 'Goldman', cursive;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.acc_sub li:hover{
+    background-color: #EAD903;
+    border-radius: 10px;
+    color: white;
+}

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+
+.section_three{
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+}
+.section_three_main{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #827474;
+    z-index: 0;
+}
+
+.section_three_back_img{
+    position: absolute;
+    top: -100px;
+    right: -100px;
+    opacity: 25%;
+    z-index: -1;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+}
+
+.box1{
+    width: 10px;
+    height: 100px;
+    background-color: white;
+    margin:0 30px  10px;
+}
+.box2{
+    width: 10px;
+    height: 30px;
+    background-color: #C5B803;
+    margin:0 30px  10px;
+}
+.box3{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    margin:0 30px  10px;
+}
+.box4{
+    width: 10px;
+    height: 200px;
+    background-color: #C5B803;
+    margin:0 30px  10px;
+}
+.box5{
+    width: 10px;
+    height: 30px;
+    background-color: #C5B803;
+    margin:0 30px 0 10px ;
+}
+.section_three_flex_main{
+    position: absolute;
+    top: 0;
+    margin: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.section_three_flex_main_svg{
+     display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.section_three_flex_main_flex{
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+}
+
+.section_three_flex_main_svg img{
+    width: 40px;
+    height: 40px;
+    color: white;
+}
+
+.section_three_flex_main_svg h3{
+    font-size: 33px;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+}
+.section_three_flex_main_flex_text{
+    width: 300px;
+    font-size: 18px;
+    margin-top: 10px;
+    color: white;
+}
